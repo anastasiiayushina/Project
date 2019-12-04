@@ -1,0 +1,36 @@
+﻿body{background: url(../images/ssBack.png); background-size: contain;
+background-attachment: fixed;
+font: 16px/24px Arial, Tahoma, sans-serif;}
+div.TopZagolovok  {height: 100px; background: #000; padding: 20px; margin-top: -10px; margin-left: -8px; margin-right: -8px;}
+
+/*knopka*/
+a.buttom 
+{
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .4em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+} 
+a.buttom:hover { background: rgba(255,255,255,.2); }
+a.buttom:active { background: gray; }
+
+/*Новости по центру*/
+div.News {background: #000; padding: 100px; padding-top: 10px; margin-top: 50px; margin-left: 100px;
+margin-right: 100px; padding-bottom: 350px;}
+
+div.News h3{text-align: center; font: 24px/32px Arial; color: #FFF;}
+
+/*Картинка*/
+div.Heads {margin-rigth: 100px; position:absolute;}
+div.Heads h3{width:200px; height:100px; position:absolute; left: 0px; top:110px;}
+
+div.mouse {position:absolute; left: 420px; top:276px;}
+div.mouse h3{width:200px; height:100px; position:absolute; left: -10px; top:113px;}
+
+div.keyboards {position:absolute; left: 610px; top:276px;}
+div.keyboards h3{width:200px; height:100px; position:absolute; left: -10px; top:113px;}

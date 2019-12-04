@@ -1,0 +1,64 @@
+        <Html>
+	<Head>
+	<Title>Отзывы</Title>
+	<script src="registration.js"></script> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <style>
+        body {
+        background: #c7b39b url(о.png)no-repeat; /* Цвет фона и путь к файлу */
+        -webkit-background-size: 100%;
+        color: black; /* Цвет текста */
+        }
+        </style>
+	</Head>
+	<Body>
+	<H1>Ваши отзывы</H1>
+	<Br>Оцените качество обслуживания магазина Котоваськино прямо сейчас! Если вы сообщите нам свою контактную информацию, 
+	у нас будет возможность связаться с Вами и ответить на Ваши вопросы.</P>
+	<Form Method="Post" Action="Mailto: Yourname@Your.Email.Address">
+	<H3>Комментарий</H3>
+	<Table Border="0">
+	<P><Input Type="Text" Name="Author" Id="Author" Value="" Size="25" />
+        <Small> Имя</Small>
+        </P>
+	<P><Input Type="Text" Name="Telephone" Id="Telephone" Value="" Size="25" />
+        <Small> Контактный номер телефона</Small>
+        </P>
+	<P><Input Type="Text" Name="Email" Id="Email" Value="" Size="25" />
+        <Small> Адрес электронной почты</Small>
+        </P>
+        </p>
+        <p><textarea name="comment" id="comment" cols="48" rows="8"> </textarea>
+        <p><input name="submit" type="submit" id="submit" value="Отправить" />
+        </p>
+        </Table>
+	</Head>
+        <Body><Br></Br>
+        Как часто Вы совершаете покупки в нашем магазине?<Br></Br>
+        <Select Name="Menu" Size="1">
+        <Option Value="First">Впервые</Option>
+        <Option Value="Third">Несколько раз</Option>
+        <Option Value="Fourth">Постоянный клиент</Option>
+        </Select>
+        </Form>
+        </Head>
+        <Body><Br></Br>
+        Кто является Вашим домашним любимцем?<Br></Br>
+        <Input Type="Checkbox" Name="Pet" Value="Dog" /> Кот(или несколько)<Br /> 
+        <Input Type="Checkbox" Name="Pet" Value="Rodent" /> Собака(или несколько)<Br /> 
+        <Input Type="Checkbox" Name="Pet" Value="Bird" /> Птица (или несколько)<Br /> 
+        <Input Type="Checkbox" Name="Pet" Value="Reptile" /> Рептилия<Br /> 
+        <Input Type="Checkbox" Name="Pet" Value="Horse" /> Лошадь(или несколько)<Br /> 
+        <Input Type="Checkbox" Name="Pet" Value="Ferret" /> Фретка (или несколько)<Br /> 
+        <Input Type="Submit" Value="Ok" />
+        <Input Type="Reset" Value="Reset" />
+        </Form><br></br>
+        </head>
+        <body>
+        Укажите Ваш пол<br></br>
+        <form name="male_female" action="" method="post">
+        Пол:<br />
+        <input type="radio" name="Sex" value="Мужской" checked="checked" /> М<br />
+        <input type="radio" name="Sex" value="Женский" /> Ж<br />
+        <Input Type="Submit" Value="Oтправить" />
+        </form>
